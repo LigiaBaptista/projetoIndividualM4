@@ -18,6 +18,6 @@ Playlist | Getters, Setters, Tocar Playlist, Adicione Item Midia e Remova Item M
    
 # Tecnologias Utilizadas
 
- ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
- ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
- ![image](https://user-images.githubusercontent.com/116887504/218183177-0dd59c6b-3898-41f1-99e1-23e448052ccf.png)
+![image](https://user-images.githubusercontent.com/118377204/224581148-4e4e449d-0ae1-4b78-a86d-4f901869c2f7.png)
+
+
