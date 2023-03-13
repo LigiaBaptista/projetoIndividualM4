@@ -5,16 +5,25 @@ public class Filme extends Midia{
     private String diretor;
     private String[] atores;
 
+    private Double duracao;
+
 //   Construtor
-    public Filme(int id, String titulo, String descricao, String genero, int duracao, int ano, String tipo, String diretor, String[] atores) {
-        super(id, titulo, descricao, genero, duracao, ano);
+    public Filme(int id, String titulo, String descricao, String genero, double duracao, int ano, String tipo, String diretor, String[] atores) {
+        super(id, titulo, descricao, genero, ano);
         this.tipo = tipo;
         this.diretor = diretor;
         this.atores = atores;
+        this.duracao = duracao;
     }
 
     //    Setters e Getters
     public String getTipo() {
+        if (duracao >= 90) {
+            System.out.println("Longa Metragem");
+        }
+        else {
+            System.out.println("Curta Metragem");
+        }
         return tipo;
     }
 
@@ -36,5 +45,21 @@ public class Filme extends Midia{
 
     public void setActors(String[] atores) {
         this.atores = atores;
+    }
+
+    public String[] getAtores() {
+        return atores;
+    }
+
+    public void setAtores(String[] atores) {
+        this.atores = atores;
+    }
+
+    public Double getDuracao() {
+        return duracao;
+    }
+
+    public void setDuracao(Double duracao) {
+        this.duracao = duracao;
     }
 }

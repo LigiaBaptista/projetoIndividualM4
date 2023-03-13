@@ -4,10 +4,10 @@ public class Main {
 
 //    Instanciação dos Objetos
     public static void main(String[] args){
-        Filme film1 = new Filme(1,"Cada um Tem a Gêmea que Merece", "Jack, um publicitário de sucesso com uma linda família, enlouquece com a visita de sua irmã gêmea Jill no dia de Ação de Graças. As coisas ficam ainda mais fora de controle quando Jill decide ficar mais tempo.", "comédia", 90, 2011, "longa", "Dennis Dugan", new String[]{"Adam Sandler", "Al Pacino", "Katie Holmes"});
-        Filme film2 = new Filme(2, "High School Musical", "Estudantes conspiram contra uma estrela do basquete e uma tímida novata, para evitar que eles cantem em uma produção musical.", "Musical/Comédia", 30, 2006, "longa", "Kenny Ortega", new String[]{"Zac Efron", "Vanessa Hudgens", "Ashley Tisdale", "Corbin Blue", "Lucas Grabeel"});
-        Filme film3 = new Filme(3,"As Branquelas", "Dois irmãos agentes do FBI, Marcus e Kevin Copeland, acidentalmente evitam que bandidos sejam presos em uma apreensão de drogas. Como castigo, eles são forçados a escoltar um par de socialites nos Hamptons. Quando as meninas descobrem o plano da agência, elas se recusam a ir. Sem opções, Marcus e Kevin, dois homens negros, decidem fingir que são as irmãs e se transformam em um par de loiras.","Comédia", 109, 2004, "Longa", "Keenen Ivory Wayans", new String[]{"Marlon Wayans", "Shawn Waynes", "Terry Crews"});
-        Filme film4 = new Filme(4, "Se Beber Não Case", "ois dias antes de seu casamento, Doug e três amigos vão de carro até Las Vegas para uma louca e memorável despedida de solteiro. Quando os três padrinhos acordam na manhã seguinte, eles não conseguem se lembrar de nada e notam que Doug desapareceu. Com pouco tempo de sobra, os amigos tentam refazer a noite anterior e encontrar Doug para que possam levá-lo de volta a Los Angeles a tempo de chegar ao altar.", "Comédia", 100, 2009, "Longa",  "Todd Phillips", new String[]{"Bradley Cooper", "Zach Galifianakis", "Ed Helms", "Justin Bartha", "Ken Jeong"});
+        Filme film1 = new Filme(1,"Cada um Tem a Gêmea que Merece", "Jack, um publicitário de sucesso com uma linda família, enlouquece com a visita de sua irmã gêmea Jill no dia de Ação de Graças. As coisas ficam ainda mais fora de controle quando Jill decide ficar mais tempo.", "comédia", 90, 2011, "", "Dennis Dugan", new String[]{"Adam Sandler", "Al Pacino", "Katie Holmes"});
+        Filme film2 = new Filme(2, "High School Musical", "Estudantes conspiram contra uma estrela do basquete e uma tímida novata, para evitar que eles cantem em uma produção musical.", "Musical/Comédia", 90, 2006, "", "Kenny Ortega", new String[]{"Zac Efron", "Vanessa Hudgens", "Ashley Tisdale", "Corbin Blue", "Lucas Grabeel"});
+        Filme film3 = new Filme(3,"As Branquelas", "Dois irmãos agentes do FBI, Marcus e Kevin Copeland, acidentalmente evitam que bandidos sejam presos em uma apreensão de drogas. Como castigo, eles são forçados a escoltar um par de socialites nos Hamptons. Quando as meninas descobrem o plano da agência, elas se recusam a ir. Sem opções, Marcus e Kevin, dois homens negros, decidem fingir que são as irmãs e se transformam em um par de loiras.","Comédia", 109, 2004, "", "Keenen Ivory Wayans", new String[]{"Marlon Wayans", "Shawn Waynes", "Terry Crews"});
+        Filme film4 = new Filme(4, "Se Beber Não Case", "ois dias antes de seu casamento, Doug e três amigos vão de carro até Las Vegas para uma louca e memorável despedida de solteiro. Quando os três padrinhos acordam na manhã seguinte, eles não conseguem se lembrar de nada e notam que Doug desapareceu. Com pouco tempo de sobra, os amigos tentam refazer a noite anterior e encontrar Doug para que possam levá-lo de volta a Los Angeles a tempo de chegar ao altar.", "Comédia", 100, 2009, "",  "Todd Phillips", new String[]{"Bradley Cooper", "Zach Galifianakis", "Ed Helms", "Justin Bartha", "Ken Jeong"});
 
         Musica music1 = new Musica(1, "Partilhar", "Música romântica", "Indie", 7, 2019, new String[]{"Anavitória", "Rubel"}, 5);
         Musica music2 = new Musica(2, "Ponto de Exclamação", "Remix", "Eletrônica/Indie", 4, 2020, new String[]{"Vintage Culture", "Future Class", "Jovem Dionisio"}, 4);
@@ -30,7 +30,7 @@ public class Main {
         romanticas.adicionar_midia(music1);
         romanticas.adicionar_midia(music2);
 
-        System.out.println(romanticas.getIndiceMidiaAtual());
+        System.out.println(film2.getTipo());
     }
 
 

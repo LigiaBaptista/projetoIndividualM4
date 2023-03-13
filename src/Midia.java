@@ -5,16 +5,14 @@ public abstract class Midia {
     private String titulo;
     private String descricao;
     private String genero;
-    private double duracao;
     private int ano;
 
 //   Construtor
-    public Midia(int id, String titulo, String descricao, String genero, double duracao, int ano){
+    public Midia(int id, String titulo, String descricao, String genero, int ano){
         this.id = id;
         this.titulo = titulo;
         this.descricao = descricao;
         this.genero = genero;
-        this.duracao = duracao;
         this.ano = ano;
     }
 
@@ -46,14 +44,6 @@ public abstract class Midia {
 
     public void setGenero(String genero) {
         this.genero = genero;
-    }
-
-    public double getDuracao() {
-        return duracao;
-    }
-
-    public void setDuracao(double duracao) {
-        this.duracao = duracao;
     }
 
     public int getAno() {
