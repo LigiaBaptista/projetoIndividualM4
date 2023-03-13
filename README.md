@@ -10,6 +10,7 @@ Classes   | Métodos     | Herda de:        |
 Mídia     | Getters e Setters       | Classe Mãe          |
 Artista  | Getters e Setters       | Classe Mãe          |
 Filme     | Getters e Setters       | Herda de Mídia        |
+Série     | Getters e Setters       | Herda de Mídia        |
 Música | Getters e Setters       | Herda de Mídia      |
 Ator | Getters e Setters       | Herda de Artista      |
 Musico | Getters e Setters       | Herda de Artista      |
@@ -19,5 +20,10 @@ Playlist | Getters, Setters, Tocar Playlist, Adicione Item Midia e Remova Item M
 # Tecnologias Utilizadas
 
 ![image](https://user-images.githubusercontent.com/118377204/224581148-4e4e449d-0ae1-4b78-a86d-4f901869c2f7.png)
+
+ <h2>Andamento do projeto 📈</h2>
+
+  ![Badge](https://img.shields.io/website?down_message=em%20andamento&label=STATUS&style=for-the-badge&up_message=conclu%C3%ADdo&url=https%3A%2F%2Fytallobruno.github.io%2FProjetoFinalModulo2%2F)
+  
 
 
